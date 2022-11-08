@@ -1,7 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
 import logo from './anbako-mock-white.png';
 
 function Footer() {
