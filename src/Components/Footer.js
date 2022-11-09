@@ -20,9 +20,7 @@ function Footer() {
           <p>
           T: 06 46438073
           </p>
-          <p>
-          E: <a href = "mailto: h.janssen@anbako.nl" style="color: red">h.janssen@anbako.nl</a>
-          </p>
+        <a href = "mailto: h.janssen@anbako.nl">h.janssen@anbako.nl</a>
       </section>
       <section class='social-media'>
         <div class='social-media-wrap'>
