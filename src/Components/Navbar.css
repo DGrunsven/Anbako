@@ -32,6 +32,8 @@
   .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
+    display: block;
+    opacity: 0;
   }
   
   .nav-menu {
@@ -164,7 +166,7 @@
   }
 
   .logo-Anbako{
-    width: 150px;
+    width: 190px;
     display: flex;
 
 }
