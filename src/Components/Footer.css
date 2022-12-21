@@ -18,6 +18,10 @@
     padding: 24px;
     color: #fff;
   }
+
+  .footer-logo{
+    color:  rgb(124, 30, 30);
+  }
   
   .footer-subscription > p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',

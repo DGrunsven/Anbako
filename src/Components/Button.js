@@ -1,6 +1,5 @@
 import React from 'react';
 import './Button.css';
-import {Link} from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--outline']
 
@@ -12,13 +11,13 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize}) => {
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
     return (
-        <Link to='/Contact' className='btn-mobile'>
+        <a href="https://anbako.myemmacloud.com/auth/login?returnUrl=%2Fdashboard" className='btn-mobile' target="_blank" rel="noreferrer">
             <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
             type={type}>
                 {children}
             </button>
-        </Link>
+            </a>
     )
 }

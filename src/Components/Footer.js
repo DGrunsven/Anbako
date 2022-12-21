@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from './anbako-mock-white.png';
+import logo from './anbako-mock-white2.png';
 
 function Footer() {
   return (

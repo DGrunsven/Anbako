@@ -8,15 +8,17 @@ function HeroSection() {
         <div className='hero-container'>
           <h1>ANBAKO</h1>
           <p>Uw maat in administratie!</p>
+          <div className='color_block'>
           <div className='hero-btns'>
             <Button
               className='btns'
               buttonStyle='btn--outline'
-              buttonSize='btn--large'
-            >
+              buttonSize='btn--large'>
               Mijn diensten
             </Button>
           </div>
+          </div>
+          
         </div>
       );
     }
