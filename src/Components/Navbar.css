@@ -1,6 +1,6 @@
 .navbar {
     background: #fff;
-    height: 80px;
+    height: 125px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,14 +159,14 @@
     }
 
     .logo-Anbako{
-        width: 120px;
+        width: 150px;
         display: flex;
 
     }
   }
 
   .logo-Anbako{
-    width: 190px;
+    width: 250px;
     display: flex;
 
 }

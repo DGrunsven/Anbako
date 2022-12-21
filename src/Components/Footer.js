@@ -17,9 +17,8 @@ function Footer() {
           <p>
           5756 AA  Vlierden
           </p>
-          <p>
-          T: 06 46438073
-          </p>
+          <a href="tel:0646438073">Herman: 06 46438073</a>
+          <a href="tel:0631907197">Anne: 06 31907197</a>
         <a href = "mailto: h.janssen@anbako.nl">h.janssen@anbako.nl</a>
       </section>
       <section class='social-media'>
@@ -27,7 +26,7 @@ function Footer() {
           <div class='footer-logo'>
               Door Donna Janssen
           </div>
-          <div class='website-rights'>Ankbako © 2022</div>
+          <div class='website-rights'>Anbako © 2022</div>
         </div>
       </section>
     </div>

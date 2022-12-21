@@ -8,4 +8,24 @@ padding: 25px;
 
 .main_heading{
     color: rgb(124, 30, 30);
+    font-size: 48px;
+}
+
+.text-wrapper{
+    display: flex;
+}
+
+.anne-herman{
+    width: 467px;
+    height: 312px;
+    padding: 15px;
+}
+
+.empty-block-text{
+    width: 200px;
+    background-color: rgb(124, 30, 30);
+}
+
+.inhoud-text{
+    padding: 20px;
 }

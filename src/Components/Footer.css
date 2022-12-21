@@ -20,7 +20,7 @@
   }
 
   .footer-logo{
-    color:  rgb(124, 30, 30);
+    color:  rgb(161, 15, 15);
   }
   
   .footer-subscription > p {
@@ -125,7 +125,7 @@
   }
 
   a:link {
-    color: #fff;
+    color:  rgb(161, 15, 15);
     background-color: transparent;
     text-decoration: none;
   }

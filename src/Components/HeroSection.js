@@ -7,14 +7,14 @@ function HeroSection() {
     return (
         <div className='hero-container'>
           <h1>ANBAKO</h1>
-          <p>Uw maat in administratie!</p>
+          <p>Uw maat voor administratie!</p>
           <div className='color_block'>
           <div className='hero-btns'>
             <Button
               className='btns'
               buttonStyle='btn--outline'
               buttonSize='btn--large'>
-              Mijn diensten
+              Onze diensten
             </Button>
           </div>
           </div>
