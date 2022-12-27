@@ -9,7 +9,7 @@ function Cards() {
         <div className='cards_wrapper'>
         <div className='cards'>
       <div className='text-wrapper'>
-      <h1 class="main_heading">Over ons</h1>
+      <h1 className='main_heading'>Over ons</h1>
       <p>
       ANBAKO Administratie is in 2005 gestart door Herman. Per 1 januari 2023 wordt het kantoor in een gezamenlijke vorm voortgezet met dochter Anne.
       </p>
@@ -39,9 +39,6 @@ function Cards() {
       </div>
       </div>
       </div>
-<div className='empty-block-text'></div>
-
-
         </div>
       </div>
     </div>
