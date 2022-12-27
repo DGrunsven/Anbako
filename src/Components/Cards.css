@@ -2,9 +2,6 @@
     background-color: #fff;
 }
 
-.cards{
-padding: 25px;
-}
 
 .main_heading{
     color: rgb(124, 30, 30);
@@ -13,6 +10,10 @@ padding: 25px;
 
 .text-wrapper{
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 30px;
+
 }
 
 .anne-herman{
@@ -26,6 +27,33 @@ padding: 25px;
     background-color: rgb(124, 30, 30);
 }
 
-.inhoud-text{
-    padding: 20px;
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-foto{
+    max-width: 60%;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #722622;
+}
+
+.contact-card-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 12px 26px #0000001a;
+    border-radius: 10px;
+    margin: 30px 50px;
 }
