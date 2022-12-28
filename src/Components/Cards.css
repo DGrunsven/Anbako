@@ -46,8 +46,11 @@
     max-width: 50%;
     height: auto;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 50%;
+
 }
+    
+    
 
 .contact-container{
     display: flex;
@@ -138,4 +141,5 @@
   .diensten-foto{
     padding-right: 30px;
     max-width: 600px;
+    max-height: 400px;
   }

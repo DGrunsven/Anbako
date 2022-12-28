@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cards.css';
-import anne from './anne.jpg';
-import herman from './herman.jpg';
+import anne from './anne-2.jpg';
+import herman from './herman-2.jpg';
 import dienstenFoto from './rapportage.png';
 
 function Cards() {
@@ -12,7 +12,7 @@ function Cards() {
           <div className='text-wrapper'>
             <h1 className='main_heading'>Over ons</h1>
             <p className='over-ons-text'>
-              ANBAKO Administratie is in 2005 gestart door Herman. Per 1 januari 2023 wordt het kantoor in een gezamenlijke vorm voortgezet met dochter Anne.
+              ANBAKO Administratie is in 2005 gestart door Herman. Per 1 januari 2023 is het kantoor in een gezamenlijke vorm voortgezet met dochter Anne.
             </p>
             <br></br>
             <p className='over-ons-text'>Wij richten ons met name op het MKB en particulieren. Hierin staan persoonlijk contact en een laagdrempelige benadering centraal. Het uitgangspunt is om maatwerk te leveren door klantgericht te werken. Het is voor ons belangrijk om uw administratie naar uw wens in te richten en nemen daarbij graag de administratieve werkzaamheden uit handen. De mate waarin, bepaalt u zelf.
