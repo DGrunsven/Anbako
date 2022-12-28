@@ -2,46 +2,80 @@ import React from 'react';
 import './Cards.css';
 import anne from './anne.jpg';
 import herman from './herman.jpg';
+import dienstenFoto from './rapportage.png';
 
 function Cards() {
   return (   
-      <div className='cards_container'>
-        <div className='cards_wrapper'>
+      <><div className='cards_container'>
+      <div className='cards_wrapper'>
         <div className='cards'>
-      <div className='text-wrapper'>
-      <h1 className='main_heading'>Over ons</h1>
-      <p>
-      ANBAKO Administratie is in 2005 gestart door Herman. Per 1 januari 2023 wordt het kantoor in een gezamenlijke vorm voortgezet met dochter Anne.
-      </p>
-      <br></br>
-      <p>Wij richten ons met name op het MKB en particulieren. Hierin staan persoonlijk contact en een laagdrempelige benadering centraal. Het uitgangspunt is om maatwerk te leveren door klantgericht te werken. Het is voor ons belangrijk om uw administratie naar uw wens in te richten en nemen daarbij graag de administratieve werkzaamheden uit handen. De mate waarin, bepaalt u zelf. 
-      Neem geheel vrijblijvend contact met ons op om de mogelijkheden voor u of uw onderneming te bespreken.
-      test</p>
-      <br></br>
-      <p>Neem geheel vrijblijvend contact met ons op om de mogelijkheden voor u of uw onderneming te bespreken.</p>
-      <br></br>
-      </div>
-      <div className='contact-container'>
-      <div className='contact-card-container'>
-      <img src={herman} alt="Herman" className='contact-foto'/>
-      <div className='contact-text'>
-      <p>Herman Janssen</p>
-      <p>06-46438073</p>
-      <p>herman@anbako.nl</p>
-      </div>
-      </div>
-      <div className='contact-card-container'>
-      <img src={anne} alt="Anne" className='contact-foto'/>
-      <div className='contact-text'>
-      <p>Anne van Dinther-Janssen</p>
-      <p>06-31907197</p>
-      <p>anne@anbako.nl</p>
-      </div>
-      </div>
-      </div>
+          <div className='text-wrapper'>
+            <h1 className='main_heading'>Over ons</h1>
+            <p className='over-ons-text'>
+              ANBAKO Administratie is in 2005 gestart door Herman. Per 1 januari 2023 wordt het kantoor in een gezamenlijke vorm voortgezet met dochter Anne.
+            </p>
+            <br></br>
+            <p className='over-ons-text'>Wij richten ons met name op het MKB en particulieren. Hierin staan persoonlijk contact en een laagdrempelige benadering centraal. Het uitgangspunt is om maatwerk te leveren door klantgericht te werken. Het is voor ons belangrijk om uw administratie naar uw wens in te richten en nemen daarbij graag de administratieve werkzaamheden uit handen. De mate waarin, bepaalt u zelf.
+              Neem geheel vrijblijvend contact met ons op om de mogelijkheden voor u of uw onderneming te bespreken.
+              </p>
+            <br></br>
+            <p className='over-ons-text'>Neem geheel vrijblijvend contact met ons op om de mogelijkheden voor u of uw onderneming te bespreken.</p>
+            <br></br>
+          </div>
+          <div className='contact-container'>
+            <div className='contact-card-container'>
+              <img src={herman} alt="Herman" className='contact-foto' />
+              <div className='contact-text'>
+                <p className='contact-naam'>Herman Janssen</p>
+                <p>06-46438073</p>
+                <p>herman@anbako.nl</p>
+              </div>
+            </div>
+            <div className='contact-card-container'>
+              <img src={anne} alt="Anne" className='contact-foto' />
+              <div className='contact-text'>
+                <p className='contact-naam'>Anne van Dinther-Janssen</p>
+                <p>06-31907197</p>
+                <p>anne@anbako.nl</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+      <div className='diensten-container'>
+      <h1>Diensten</h1>
+      </div>
+      
+      <div className='diensten-content'>
+      <img src={dienstenFoto} alt="diensten" className='diensten-foto' />
+      <div className='diensten-text'>
+        <ul className='diensten-ul'>
+          <li className='diensten-list'>Boekhouding &#13; 
+          <p className='diensten-text-b'>Wij werken met AFAS Profit, maar ondersteunen ook andere boekhoudpakketten.</p>
+          </li>
+          <li className='diensten-list'>Aangifte omzetbelasting &#13; 
+          <p className='diensten-text-b'>Tijdig indienen van de BTW aangifte per maand of kwartaal.</p>
+          </li>
+          <li className='diensten-list'>Jaarrekening &#13; 
+          <p className='diensten-text-b'>Opmaken van de jaarlijkse balans en resultatenrekening voor eenmanszaak, VOF of BV.</p>
+          </li>
+          <li className='diensten-list'>Aangifte inkomstenbelasting &#13; 
+          <p className='diensten-text-b'>Invullen van belastingaangifte voor ondernemers en particulieren.</p>
+          </li>
+          <li className='diensten-list'>Aangifte vennootschapsbelasting / deponering KvK &#13; 
+          <p className='diensten-text-b'>Invullen van belastingaangifte voor BV en de daarbij horende formaliteiten.</p>
+          </li>
+          <li className='diensten-list-2'>Loonadministratie 
+          </li>
+          <li className='diensten-list-2'>Begeleiding bij opstarten van onderneming
+          </li>
+        </ul>
+      </div>
+      </div>
+      </>
+     
   );
 }
 

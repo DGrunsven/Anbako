@@ -46,10 +46,20 @@
 }
 
 .myemma-login {
-  background-image: url('./img-8.jpg');
+  background-image: url('./img-1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.cookieinfo{
+  min-height: 50px !important;
+  height: 60px !important;
+  background:rgb(114 38 34) !important;
+}
+
+.cookieinfo-close{
+  background: #fff !important;
 }
