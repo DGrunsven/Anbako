@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
 
-export default function OverMij() {
-  return <h1 className='overMij'>Over mij</h1>;
+export default function OverOns() {
+  return <h1 className='overOns'>Over ons</h1>;
 }

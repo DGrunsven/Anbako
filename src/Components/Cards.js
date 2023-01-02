@@ -1,21 +1,81 @@
 import React from 'react';
 import './Cards.css';
+import anne from './anne-2.jpg';
+import herman from './herman-2.jpg';
+import dienstenFoto from './rapportage.png';
 
 function Cards() {
-  return (
-    <div className='cards'>
-      <h1>Over mij</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictumst quisque sagittis purus sit amet volutpat. Dapibus ultrices in iaculis nunc. Augue mauris augue neque gravida in fermentum. Tincidunt id aliquet risus feugiat in ante metus dictum at. Euismod nisi porta lorem mollis aliquam ut. Metus vulputate eu scelerisque felis. Elit at imperdiet dui accumsan sit amet nulla. Neque egestas congue quisque egestas. Vitae purus faucibus ornare suspendisse sed nisi. Sed vulputate mi sit amet mauris commodo quis imperdiet.
-
-Gravida rutrum quisque non tellus orci ac auctor augue. Felis donec et odio pellentesque. Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis. Pulvinar mattis nunc sed blandit libero volutpat sed cras. In massa tempor nec feugiat nisl pretium fusce id velit. Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Et egestas quis ipsum suspendisse ultrices gravida. Amet nulla facilisi morbi tempus iaculis urna. In massa tempor nec feugiat nisl pretium fusce. Tellus mauris a diam maecenas sed enim. Sed elementum tempus egestas sed sed risus pretium. Enim diam vulputate ut pharetra sit amet aliquam. Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. Ac tortor vitae purus faucibus. Sed risus pretium quam vulputate. Pulvinar mattis nunc sed blandit. Eu sem integer vitae justo eget magna fermentum. Nunc consequat interdum varius sit. Vitae nunc sed velit dignissim sodales. Lorem sed risus ultricies tristique nulla.
-
-Arcu dictum varius duis at consectetur. Facilisi nullam vehicula ipsum a arcu cursus vitae. Turpis massa sed elementum tempus egestas sed sed. Sed id semper risus in hendrerit gravida rutrum. Quam pellentesque nec nam aliquam sem et tortor consequat. Lectus proin nibh nisl condimentum id venenatis a condimentum. Molestie at elementum eu facilisis sed. Id semper risus in hendrerit gravida. Condimentum lacinia quis vel eros donec ac odio tempor. Tempus imperdiet nulla malesuada pellentesque elit. Non pulvinar neque laoreet suspendisse interdum consectetur. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Id eu nisl nunc mi ipsum. Sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis.</p>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          
+  return (   
+      <><div className='cards_container'>
+      <div className='cards_wrapper'>
+        <div className='cards'>
+          <div className='text-wrapper'>
+            <h1 className='main_heading'>Over ons</h1>
+            <p className='over-ons-text'>
+              ANBAKO Administratie is in 2005 gestart door Herman. Per 1 januari 2023 is het kantoor in een gezamenlijke vorm voortgezet met dochter Anne.
+            </p>
+            <br></br>
+            <p className='over-ons-text'>Wij richten ons met name op het MKB en particulieren. Hierin staan persoonlijk contact en een laagdrempelige benadering centraal. Het uitgangspunt is om maatwerk te leveren door klantgericht te werken. Het is voor ons belangrijk om uw administratie naar uw wens in te richten en nemen daarbij graag de administratieve werkzaamheden uit handen. De mate waarin, bepaalt u zelf.
+              Neem geheel vrijblijvend contact met ons op om de mogelijkheden voor u of uw onderneming te bespreken.
+              </p>
+            <br></br>
+            <p className='over-ons-text'>Neem geheel vrijblijvend contact met ons op om de mogelijkheden voor u of uw onderneming te bespreken.</p>
+            <br></br>
+          </div>
+          <div className='contact-container'>
+            <div className='contact-card-container'>
+              <img src={herman} alt="Herman" className='contact-foto' />
+              <div className='contact-text'>
+                <p className='contact-naam'>Herman Janssen</p>
+                <p>06-46438073</p>
+                <p>herman@anbako.nl</p>
+              </div>
+            </div>
+            <div className='contact-card-container'>
+              <img src={anne} alt="Anne" className='contact-foto' />
+              <div className='contact-text'>
+                <p className='contact-naam'>Anne van Dinther-Janssen</p>
+                <p>06-31907197</p>
+                <p>anne@anbako.nl</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+      <div className='diensten-container'>
+      <h1>Diensten</h1>
+      </div>
+      
+      <div className='diensten-content'>
+      <img src={dienstenFoto} alt="diensten" className='diensten-foto' />
+      <div className='diensten-text'>
+        <ul className='diensten-ul'>
+          <li className='diensten-list'>Boekhouding &#13; 
+          <p className='diensten-text-b'>Wij werken met AFAS Profit, maar ondersteunen ook andere boekhoudpakketten.</p>
+          </li>
+          <li className='diensten-list'>Aangifte omzetbelasting &#13; 
+          <p className='diensten-text-b'>Tijdig indienen van de BTW aangifte per maand of kwartaal.</p>
+          </li>
+          <li className='diensten-list'>Jaarrekening &#13; 
+          <p className='diensten-text-b'>Opmaken van de jaarlijkse balans en resultatenrekening voor eenmanszaak, VOF of BV.</p>
+          </li>
+          <li className='diensten-list'>Aangifte inkomstenbelasting &#13; 
+          <p className='diensten-text-b'>Invullen van belastingaangifte voor ondernemers en particulieren.</p>
+          </li>
+          <li className='diensten-list'>Aangifte vennootschapsbelasting / deponering KvK &#13; 
+          <p className='diensten-text-b'>Invullen van belastingaangifte voor BV en de daarbij horende formaliteiten.</p>
+          </li>
+          <li className='diensten-list-2'>Loonadministratie 
+          </li>
+          <li className='diensten-list-2'>Begeleiding bij opstarten van onderneming
+          </li>
+        </ul>
+      </div>
+      </div>
+      </>
+     
   );
 }
 

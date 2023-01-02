@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import logo from './anbako-mock-white.png';
+import logo from './anbako-mock4.png';
 import { Button } from './Button';
 import './Navbar.css';
 
@@ -44,8 +44,8 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/overMij' className='nav-links' onClick={closeMobileMenu}>
-                        Over mij
+                    <Link to='/overOns' className='nav-links' onClick={closeMobileMenu}>
+                        Over ons
                     </Link>
                 </li>
                 <li className='nav-item'>
