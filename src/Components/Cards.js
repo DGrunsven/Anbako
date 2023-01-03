@@ -27,16 +27,16 @@ function Cards() {
               <img src={herman} alt="Herman" className='contact-foto' />
               <div className='contact-text'>
                 <p className='contact-naam'>Herman Janssen</p>
-                <p>06-46438073</p>
-                <p>herman@anbako.nl</p>
+                <a href="tel:0646438073">06 46438073</a>
+                <a href = "mailto: herman@anbako.nl">herman@anbako.nl</a>
               </div>
             </div>
             <div className='contact-card-container'>
               <img src={anne} alt="Anne" className='contact-foto' />
               <div className='contact-text'>
                 <p className='contact-naam'>Anne van Dinther-Janssen</p>
-                <p>06-31907197</p>
-                <p>anne@anbako.nl</p>
+                <a href="tel:0631907197">06 31907197</a>
+                <a href = "mailto: anne@anbako.nl">anne@anbako.nl</a>
               </div>
             </div>
           </div>
