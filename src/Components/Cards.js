@@ -3,8 +3,22 @@ import './Cards.css';
 import anne from './anne-2.jpg';
 import herman from './herman-2.jpg';
 import dienstenFoto from './rapportage.png';
+import ContactForm from "./ContactForm";
+import { useEffect } from "react";
+import ContactForm3 from './ContactForm3';
 
 function Cards() {
+
+  useEffect(() => {
+    if (document) {
+      const stylesheet = document.createElement("link");
+      stylesheet.rel = "stylesheet";
+      stylesheet.href = "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css";
+
+      document.head.appendChild(stylesheet);
+    }
+  }, []);
+
   return (   
       <><div className='cards_container'>
       <div className='cards_wrapper'>
@@ -46,8 +60,7 @@ function Cards() {
 
       <div className='diensten-container'>
       <h1>Diensten</h1>
-      </div>
-      
+      </div>    
       <div className='diensten-content'>
       <img src={dienstenFoto} alt="diensten" className='diensten-foto' />
       <div className='diensten-text'>
@@ -73,6 +86,16 @@ function Cards() {
           </li>
         </ul>
       </div>
+      </div>
+
+      <div className='contact-form-container'>
+      <h1>Contact</h1>
+      </div>    
+      <div className='cf-content'>
+      <ContactForm />
+      </div>
+      <div className='cf-content'>
+        <ContactForm3 />
       </div>
       </>
      
