@@ -92,9 +92,6 @@ function Cards() {
       <h1>Contact</h1>
       </div>    
       <div className='cf-content'>
-      <ContactForm />
-      </div>
-      <div className='cf-content'>
         <ContactForm3 />
       </div>
       </>
