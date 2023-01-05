@@ -20,7 +20,7 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <a href="https://www.linkedin.com/in/donna-van-grunsven/" target="_blank" rel="noopener noreferrer" className='footer-logo'>Door Donna Janssen</a>     
-          <div class='website-rights'>Anbako © 2022</div>
+          <div class='website-rights'>Anbako © 2023</div>
         </div>
       </section>
     </div>

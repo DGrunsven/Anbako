@@ -17,8 +17,7 @@ function HeroSection() {
               Onze diensten
             </Button>
           </div>
-          </div>
-          
+          </div>         
         </div>
       );
     }

@@ -28,6 +28,12 @@
     display: flex;
     align-items: center;
   }
+
+  .logo-Anbako{
+    width: 250px;
+    display: flex;
+
+}
   
   .fa-typo3 {
     margin-left: 0.5rem;
@@ -48,7 +54,7 @@
   }
   
   .nav-item {
-    height: 8px;
+    height: 80px;
   }
   
   .nav-links {
@@ -158,15 +164,9 @@
       transition: 250ms;
     }
 
-    .logo-Anbako{
-        width: 150px;
-        display: flex;
-
-    }
+    .logo-Anbako {
+      width: 185px;
+      display: flex;
+  }
   }
 
-  .logo-Anbako{
-    width: 250px;
-    display: flex;
-
-}

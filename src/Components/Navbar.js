@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
+//import { Link, animateScroll as scroll } from "react-scroll";
 import { Link } from 'react-router-dom';
 import logo from './anbako-mock4.png';
 import { Button } from './Button';
@@ -21,6 +22,9 @@ function Navbar() {
         }
     };
 
+    useEffect(() => {
+        showButton();
+      }, []);
 
 
     window.addEventListener('resize', showButton);

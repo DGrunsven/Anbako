@@ -3,7 +3,6 @@ import './Cards.css';
 import anne from './anne-2.jpg';
 import herman from './herman-2.jpg';
 import dienstenFoto from './rapportage.png';
-import ContactForm from "./ContactForm";
 import { useEffect } from "react";
 import ContactForm3 from './ContactForm3';
 
@@ -90,7 +89,8 @@ function Cards() {
 
       <div className='contact-form-container'>
       <h1>Contact</h1>
-      </div>    
+      </div> 
+      <p className='cf-text'>Neem voor meer informatie vrijblijvend contact met ons op via het onderstaande contact formulier.</p>   
       <div className='cf-content'>
         <ContactForm3 />
       </div>
