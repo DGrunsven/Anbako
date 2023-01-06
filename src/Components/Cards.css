@@ -171,9 +171,6 @@
   }
 
   .cf-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     padding: 80px;
   }
 

@@ -1,5 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ContactForm3 = () => {
     useEffect(() => {
@@ -13,28 +15,24 @@ const ContactForm3 = () => {
       }, []);
 
     const form = useRef();
-    const [submitted, setSubmitted] = useState(false);
+
+    const notify = () => toast.success("Bericht verzonden!");
+
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_s2sa9rn', 'template_l35kqta', form.current, 'SAL3sEwUAwFhpFANt')
-        .then((result) => {
-              setTimeout(() => {
-              setSubmitted(true);
-              }, 100);
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        })
-        if (submitted) {
-          return (
-            <>
-              <div className="text-2xl">Bedankt!</div>
-              <div className="text-md">We nemen zo spoedig mogelijk contact op.</div>
-            </>
-          );
-        }
-        ;
+    //   emailjs.sendForm('service_s2sa9rn', 'template_l35kqta', form.current, 'SAL3sEwUAwFhpFANt')
+    //     .then((result) => {
+    //           setTimeout(() => {
+    //           }, 100);
+    //         console.log(result.text);
+    //     }, (error) => {
+    //         console.log(error.text);
+    //     }
+    //     );
+    
+        notify();
+        e.target.reset()
     };
 
 
@@ -100,14 +98,28 @@ const ContactForm3 = () => {
       required></textarea>
     </div>
   </div>
-  <div class="md:flex md:items-center">
+  <div class="md:flex pb-10">
   <div class="g-recaptcha" data-sitekey="6LfRg9AjAAAAAMfJclBAIo4yv7PWT7SKa2PueoE2"></div>
+  </div>
+  <div class="md:flex md:items-center justify around">
     <div class="md:w-1/3">
-      <button class="shadow bg-red-800 hover:bg-black-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" 
+      <button class="shadow bg-red-800 hover:bg-black-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded" 
       type="submit">
         Verzend bericht
       </button>
-    </div>
+      <ToastContainer
+      position="bottom-left"
+      autoClose={3000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable={false}
+      pauseOnHover
+      theme="light"  
+      />
+    </div>  
     <div class="md:w-2/3"></div>
   </div>
 </form>
