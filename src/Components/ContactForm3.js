@@ -1,7 +1,17 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import emailjs from '@emailjs/browser';
 
 const ContactForm3 = () => {
+    useEffect(() => {
+        if (document) {
+          const stylesheet = document.createElement("link");
+          stylesheet.rel = "stylesheet";
+          stylesheet.href = "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css";
+    
+          document.head.appendChild(stylesheet);
+        }
+      }, []);
+
     const form = useRef();
     const [submitted, setSubmitted] = useState(false);
     const sendEmail = (e) => {
@@ -29,12 +39,12 @@ const ContactForm3 = () => {
 
 
   return (
-<div className="flex flex-row space-x-4 w-full"> 
+<div className="flex flex-row space-x-4 justify-around w-full"> 
     <form class="w-1/2 max-w-lg" ref={form} onSubmit={sendEmail}>
   <div class="flex flex-wrap -mx-3 mb-6">
     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-        Naam
+        Naam*
       </label>
       <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-red-800" 
       id="grid-first-name" 
@@ -45,7 +55,7 @@ const ContactForm3 = () => {
     </div>
     <div class="w-full md:w-1/2 px-3">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-        Achternaam
+        Achternaam*
       </label>
       <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-red-800" 
       id="grid-last-name" 
@@ -58,7 +68,7 @@ const ContactForm3 = () => {
   <div class="flex flex-wrap -mx-3 mb-6">
     <div class="w-full px-3">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-        E-mail
+        E-mail*
       </label>
       <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-red-800" 
       id="email" 
@@ -81,7 +91,7 @@ const ContactForm3 = () => {
   <div class="flex flex-wrap -mx-3 mb-6">
     <div class="w-full px-3">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-        Uw bericht
+        Uw bericht*
       </label>
       <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-red-800 h-48 resize-none" 
       id="message"

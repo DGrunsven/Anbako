@@ -6,20 +6,30 @@ import Home from './Components/Pages/Home';
 import Diensten from './Components/Pages/Diensten';
 import Contact from './Components/Pages/Contact';
 import OverOns from './Components/Pages/OverOns';
+import Footer from './Components/Footer';
 
 
 function App() {
   return (
     <>
-      <Router>
         <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/diensten' element={<Diensten />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/overOns' element={<OverOns />} />
-        </Routes>
-      </Router>
+        <Home
+        title="Home"
+        id="home"
+        />
+        <OverOns
+        title="OverOns"
+        id="overOns"
+        />
+        <Diensten
+        title="Diensten"
+        id="diensten"
+        />
+        <Contact
+        title="Contact"
+        id="contact"
+        />
+        <Footer />
     </>
   );
 }

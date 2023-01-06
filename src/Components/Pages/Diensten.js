@@ -3,8 +3,12 @@ import '../../App.css';
 import dienstenFoto from './../rapportage.png';
 
 export default function Diensten() {
-  return <><h1 className='diensten'>Diensten</h1><div className='diensten-content'>
-    <img src={dienstenFoto} alt="diensten" className='diensten-foto' />
+  return <><div className='diensten'>
+      <div className='diensten-container'>
+      <h1>Diensten</h1>
+      </div>  
+    <div className='diensten-content'>
+    <img src={dienstenFoto} alt="dienstenFoto" className='diensten-foto' />
     <div className='diensten-text'>
       <ul className='diensten-ul'>
         <li className='diensten-list'>Boekhouding &#13;
@@ -28,5 +32,6 @@ export default function Diensten() {
         </li>
       </ul>
     </div>
+  </div>
   </div></>;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import { ButtonDiensten } from './ButtonDiensten';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -10,12 +10,12 @@ function HeroSection() {
           <p>Uw maat voor administratie!</p>
           <div className='color_block'>
           <div className='hero-btns'>
-            <Button
+            <ButtonDiensten
               className='btns'
               buttonStyle='btn--outline'
               buttonSize='btn--large'>
               Onze diensten
-            </Button>
+            </ButtonDiensten>
           </div>
           </div>         
         </div>

@@ -8,6 +8,7 @@
     font-size: 48px;
     padding: 35px;
     text-align: center;
+    font-weight: 700;
 }
 
 .text-wrapper{
@@ -40,9 +41,18 @@
     font-family: 'Roboto', sans-serif !important;
 }
 
+.ct{
+  color:rgba(0, 0, 0, 0.9) !important;
+}
+
+.ct:hover{
+  border-bottom: 2px solid #722622;
+}
+
 .contact-naam{
     font-size: 30px;
     color: #722622;
+    font-weight: 700;
 }
 
 .contact-foto{
@@ -68,7 +78,7 @@
     background-color: #fff;
     width: 100%;
     height: auto;
-    box-shadow: 0px 12px 26px #0000001a;
+    box-shadow: 20px 14px 20px 13px #00000042;
     border-radius: 10px;
     margin: 100px 50px;
 }

@@ -4,7 +4,7 @@ import anne from './../anne-2.jpg';
 import herman from './../herman-2.jpg';
 
 export default function OverOns() {
-  return <><div className='cards_container'>
+  return <><div className='overOns'><div className='cards_container'>
     <div className='cards_wrapper'>
       <div className='cards'>
         <div className='text-wrapper'>
@@ -25,20 +25,21 @@ export default function OverOns() {
             <img src={herman} alt="Herman" className='contact-foto' />
             <div className='contact-text'>
               <p className='contact-naam'>Herman Janssen</p>
-              <a href="tel:0646438073">06 46438073</a>
-              <a href="mailto: herman@anbako.nl">herman@anbako.nl</a>
+              <a className='ct' href="tel:0646438073">06 46438073</a>
+              <a className='ct' href="mailto: herman@anbako.nl">herman@anbako.nl</a>
             </div>
           </div>
           <div className='contact-card-container'>
             <img src={anne} alt="Anne" className='contact-foto' />
             <div className='contact-text'>
               <p className='contact-naam'>Anne van Dinther-Janssen</p>
-              <a href="tel:0631907197">06 31907197</a>
-              <a href="mailto: anne@anbako.nl">anne@anbako.nl</a>
+              <a className='ct' href="tel:0631907197">06 31907197</a>
+              <a className='ct' href="mailto: anne@anbako.nl">anne@anbako.nl</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
   </div></>;
 }

@@ -3,7 +3,7 @@ import '../../App.css';
 import ContactForm3 from './../ContactForm3';
 
 export default function Contact() {
-  return <><div>
+  return <><div className='contact'>
       <div className='contact-form-container'>
       <h1>Contact</h1>
       </div> 
