@@ -21,24 +21,23 @@ const ContactForm3 = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-    //   emailjs.sendForm('service_s2sa9rn', 'template_l35kqta', form.current, 'SAL3sEwUAwFhpFANt')
-    //     .then((result) => {
-    //           setTimeout(() => {
-    //           }, 100);
-    //         console.log(result.text);
-    //     }, (error) => {
-    //         console.log(error.text);
-    //     }
-    //     );
-    
-        notify();
-        e.target.reset()
+      emailjs.sendForm('service_s2sa9rn', 'template_l35kqta', form.current, 'SAL3sEwUAwFhpFANt')
+        .then((result) => {
+              setTimeout(() => {
+              }, 100);
+              notify();
+              e.target.reset()
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        }
+        );
     };
 
 
   return (
 <div className="flex flex-row space-x-4 justify-around w-full"> 
-    <form class="w-1/2 max-w-lg" ref={form} onSubmit={sendEmail}>
+    <form class="w-1/2 max-w-lg" ref={form} onSubmit={sendEmail} method="POST">
   <div class="flex flex-wrap -mx-3 mb-6">
     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
