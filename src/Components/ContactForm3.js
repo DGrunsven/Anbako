@@ -2,8 +2,15 @@ import React, { useRef, useState, useEffect } from "react";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const ContactForm3 = () => {
+
+
+  function onChange(value) {
+    console.log('Captcha value:', value);
+  }
+
     useEffect(() => {
         if (document) {
           const stylesheet = document.createElement("link");
@@ -98,7 +105,10 @@ const ContactForm3 = () => {
     </div>
   </div>
   <div class="md:flex pb-10">
-  <div class="g-recaptcha" data-sitekey="6LfRg9AjAAAAAMfJclBAIo4yv7PWT7SKa2PueoE2"></div>
+  <ReCAPTCHA
+        sitekey="6LfRg9AjAAAAAMfJclBAIo4yv7PWT7SKa2PueoE2"
+        onChange={onChange}
+      />
   </div>
   <div class="md:flex md:items-center justify around">
     <div class="md:w-1/3">
