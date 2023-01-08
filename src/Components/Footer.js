@@ -15,11 +15,11 @@ function Footer() {
         <a classname="footer-text" href="tel:0646438073">
           Herman: 06 46438073
         </a>
-        <a classname="footer-text" href="tel:0631907197">
-          Anne: 06 31907197
-        </a>
         <a classname="footer-text" href="mailto: herman@anbako.nl">
           herman@anbako.nl
+        </a>
+        <a classname="footer-text" href="tel:0631907197">
+          Anne: 06 31907197
         </a>
         <a classname="footer-text" href="mailto: anne@anbako.nl">
           anne@anbako.nl
