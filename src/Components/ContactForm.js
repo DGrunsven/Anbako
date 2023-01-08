@@ -170,6 +170,7 @@ const ContactForm = () => {
       </form>
       <div className="w-full h-96 lg:w-1/2 lg:h-auto">
         <iframe
+          title="googleMaps"
           width="100%"
           height="100%"
           src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=nl&amp;q=Vlierdenseweg%20169+(Anbako)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
