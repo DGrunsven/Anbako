@@ -87,10 +87,6 @@
     display: flex;
   }
 
-  .NavbarItems {
-    position: relative;
-  }
-
   .nav-menu {
     display: flex;
     flex-direction: column;
