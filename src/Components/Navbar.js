@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
-import logo from "./anbako-mock4.png";
+import { Link } from "react-scroll";
+import logo from "./Images/logoNavbar.png";
 import { Button } from "./Button";
 import "./Navbar.css";
 

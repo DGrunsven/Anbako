@@ -1,7 +1,7 @@
 import React from "react";
 import "./OverOns.css";
-import anne from "./../anne-2.jpg";
-import herman from "./../herman-2.jpg";
+import anne from "./../Images/anne.png";
+import herman from "./../Images/herman.png";
 
 export default function OverOns() {
   return (

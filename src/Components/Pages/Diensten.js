@@ -1,6 +1,6 @@
 import React from "react";
 import "./Diensten.css";
-import dienstenFoto from "./../rapportage.png";
+import dienstenFoto from "./../Images/rapportage.png";
 
 export default function Diensten() {
   return (
