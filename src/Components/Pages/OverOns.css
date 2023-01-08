@@ -110,7 +110,7 @@
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1000px) {
   .contact-text {
     display: flex;
     flex-direction: column;
@@ -123,5 +123,12 @@
     font-size: 20px;
     color: #722622;
     font-weight: 700;
+  }
+
+  .contact-foto {
+    max-width: 30%;
+    height: auto;
+    margin: 20px;
+    border-radius: 50%;
   }
 }

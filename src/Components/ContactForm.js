@@ -48,9 +48,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="lg:flex flex-row space-x-4 justify-around w-full">
+    <div className="lg:flex flex-row space-x-4 justify-around w-full gap-3">
       <form
-        class="w-full max-w-lg lg:w-1/2"
+        class="mx-auto lg:mx-0 mw-full max-w-lg lg:w-1/2"
         ref={form}
         onSubmit={sendEmail}
         method="POST"
@@ -168,7 +168,7 @@ const ContactForm = () => {
           </div>
         </div>
       </form>
-      <div className="w-full lg:w-1/2">
+      <div className="w-full h-96 lg:w-1/2 lg:h-auto">
         <iframe
           width="100%"
           height="100%"
