@@ -139,13 +139,13 @@ const ContactForm = () => {
             ></textarea>
           </div>
         </div>
-        <div class="md:flex pb-10">
+        <div class="flex justify-center md:flex pb-10">
           <ReCAPTCHA
             sitekey="6LfRg9AjAAAAAMfJclBAIo4yv7PWT7SKa2PueoE2"
             onChange={onChange}
           />
         </div>
-        <div class="md:flex md:items-center justify around pb-8">
+        <div class="flex justify-center md:flex md:items-center pb-8">
           <div class="md:w-1/3">
             <button
               class="shadow bg-red-800 hover:bg-black-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
@@ -168,7 +168,7 @@ const ContactForm = () => {
           </div>
         </div>
       </form>
-      <div className="w-full h-96 lg:w-1/2 lg:h-auto">
+      <div className="w-full h-72 lg:w-1/2 lg:h-auto">
         <iframe
           title="googleMaps"
           width="100%"
