@@ -107,3 +107,21 @@
     margin-top: -100px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .diensten-foto {
+    padding: 20px;
+    max-width: 380px;
+    max-height: 350px;
+  }
+
+  .diensten-container > h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-top: -100px;
+  }
+
+  .diensten-text {
+    font-size: 16px;
+  }
+}

@@ -63,3 +63,9 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .hero-container > p {
+    font-size: 25px;
+  }
+}
