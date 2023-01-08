@@ -34,19 +34,16 @@
 }
 
 .diensten-text-b {
-  font-family: "Roboto", sans-serif;
   padding-left: 25px;
   padding-bottom: 20px;
   font-weight: 400;
 }
 
 .diensten-list {
-  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
 .diensten-list-2 {
-  font-family: "Roboto", sans-serif;
   font-weight: 600;
   padding-bottom: 20px;
 }
@@ -108,7 +105,27 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+  .diensten-list {
+    font-weight: 600;
+    position: relative;
+  }
+
+  .diensten-ul li::before {
+    content: "\3e";
+    font-family: "Font Awesome 5 Free";
+    padding: 0 10px 0 0;
+    color: #722622;
+    position: absolute;
+    left: -20px;
+  }
+
+  .diensten-text-b {
+    padding-left: 0px;
+    padding-bottom: 20px;
+    font-weight: 400;
+  }
+
   .diensten-foto {
     padding: 20px;
     max-width: 380px;

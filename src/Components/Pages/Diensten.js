@@ -51,8 +51,11 @@ export default function Diensten() {
                   formaliteiten.
                 </p>
               </li>
-              <li className="diensten-list-2">Loonadministratie</li>
-              <li className="diensten-list-2">
+              <li className="diensten-list">
+                Loonadministratie &#13;
+                <p className="diensten-text-b"></p>
+              </li>
+              <li className="diensten-list">
                 Begeleiding bij opstarten van onderneming
               </li>
             </ul>
