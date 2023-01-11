@@ -10,20 +10,26 @@ function Footer() {
         <div className="footer-text-adres">
           <p>Vlierdenseweg 169</p>
           <p>5756 AA Vlierden</p>
-          <p>KvK nummer: </p>
+          <p>KvK nummer: 88869342</p>
         </div>
-        <a classname="footer-text" href="tel:0646438073">
-          Herman: 06 46438073
-        </a>
-        <a classname="footer-text" href="mailto: herman@anbako.nl">
-          herman@anbako.nl
-        </a>
-        <a classname="footer-text" href="tel:0631907197">
-          Anne: 06 31907197
-        </a>
-        <a classname="footer-text" href="mailto: anne@anbako.nl">
-          anne@anbako.nl
-        </a>
+        <div className="footer-names-tel">
+          <a classname="footer-text" href="tel:0646438073">
+            Herman: 06 46438073
+          </a>
+          <p>&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+          <a classname="footer-text" href="mailto: herman@anbako.nl">
+            herman@anbako.nl
+          </a>
+        </div>
+        <div className="footer-names-tel">
+          <a classname="footer-text" href="tel:0631907197">
+            Anne: 06 31907197
+          </a>
+          <p>&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+          <a classname="footer-text" href="mailto: anne@anbako.nl">
+            anne@anbako.nl
+          </a>
+        </div>
       </section>
       <section class="social-media">
         <div class="social-media-wrap">
