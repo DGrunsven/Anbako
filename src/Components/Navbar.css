@@ -97,6 +97,7 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    justify-content: flex-start;
   }
 
   .nav-menu.active {
@@ -107,7 +108,8 @@
     z-index: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 20px;
     font-weight: 600;
     top: 125px;
   }
@@ -167,5 +169,27 @@
     background: #fff;
     color: rgb(124, 30, 30) !important;
     transition: 250ms;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .nav-menu.active {
+    background: rgb(124, 30, 30);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    font-weight: 600;
+    top: 125px;
+    max-height: 280px;
+    overflow-y: auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-menu {
+    grid-gap: 0px;
+    width: 45vw;
   }
 }

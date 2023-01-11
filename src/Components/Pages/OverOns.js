@@ -25,9 +25,7 @@ export default function OverOns() {
                   klantgericht te werken. Het is voor ons belangrijk om uw
                   administratie naar uw wens in te richten en nemen daarbij
                   graag de administratieve werkzaamheden uit handen. De mate
-                  waarin, bepaalt u zelf. Neem geheel vrijblijvend contact met
-                  ons op om de mogelijkheden voor u of uw onderneming te
-                  bespreken.
+                  waarin, bepaalt u zelf.
                 </p>
                 <br></br>
                 <p className="over-ons-text">

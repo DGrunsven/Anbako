@@ -11,7 +11,7 @@ export default function Contact() {
         </div>
         <p className="cf-text">
           Neem voor meer informatie vrijblijvend contact met ons op via het
-          onderstaande contact formulier.
+          onderstaande contactformulier.
         </p>
         <div className="cf-content">
           <ContactForm />
