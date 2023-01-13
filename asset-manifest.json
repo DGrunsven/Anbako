@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/anbako.nl/static/css/main.b673f5e6.css",
-    "main.js": "/anbako.nl/static/js/main.fbfaf985.js",
-    "static/media/home.jpg": "/anbako.nl/static/media/home.6c3c0f76e0f69946fd09.jpg",
-    "static/media/diensten.jpg": "/anbako.nl/static/media/diensten.71516853684217b35501.jpg",
-    "static/media/contact.png": "/anbako.nl/static/media/contact.1104ba4364c5f7d8c8e1.png",
-    "static/media/anne.png": "/anbako.nl/static/media/anne.8b347b7314736b6fdbb6.png",
-    "static/media/herman.png": "/anbako.nl/static/media/herman.91d4b6c0b9fa7ee2761f.png",
-    "static/media/rapportage.png": "/anbako.nl/static/media/rapportage.9509f611cec6c8557cce.png",
-    "static/media/logoFooter.png": "/anbako.nl/static/media/logoFooter.004098d2fdaf224b3624.png",
-    "static/media/logoNavbar.png": "/anbako.nl/static/media/logoNavbar.60c15bb70596920bc8bd.png",
-    "index.html": "/anbako.nl/index.html",
-    "main.b673f5e6.css.map": "/anbako.nl/static/css/main.b673f5e6.css.map",
-    "main.fbfaf985.js.map": "/anbako.nl/static/js/main.fbfaf985.js.map"
+    "main.css": "/anbako/static/css/main.0dad4648.css",
+    "main.js": "/anbako/static/js/main.4978afc7.js",
+    "static/media/home.jpg": "/anbako/static/media/home.6c3c0f76e0f69946fd09.jpg",
+    "static/media/diensten.jpg": "/anbako/static/media/diensten.71516853684217b35501.jpg",
+    "static/media/contact.png": "/anbako/static/media/contact.1104ba4364c5f7d8c8e1.png",
+    "static/media/anne.png": "/anbako/static/media/anne.8b347b7314736b6fdbb6.png",
+    "static/media/herman.png": "/anbako/static/media/herman.91d4b6c0b9fa7ee2761f.png",
+    "static/media/rapportage.png": "/anbako/static/media/rapportage.9509f611cec6c8557cce.png",
+    "static/media/logoFooter.png": "/anbako/static/media/logoFooter.004098d2fdaf224b3624.png",
+    "static/media/logoNavbar.png": "/anbako/static/media/logoNavbar.60c15bb70596920bc8bd.png",
+    "index.html": "/anbako/index.html",
+    "main.0dad4648.css.map": "/anbako/static/css/main.0dad4648.css.map",
+    "main.4978afc7.js.map": "/anbako/static/js/main.4978afc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b673f5e6.css",
-    "static/js/main.fbfaf985.js"
+    "static/css/main.0dad4648.css",
+    "static/js/main.4978afc7.js"
   ]
 }
