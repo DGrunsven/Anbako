@@ -1,5 +1,5 @@
 {
-  "homepage": "http://DGrunsven.github.io/anbako",
+  "homepage": "https://DGrunsven.github.io/",
   "name": "anbako-2022",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
+    "add-domain": "echo \"anbako.nl\" > build/CNAME",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
