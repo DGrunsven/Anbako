@@ -98,17 +98,19 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a
-                  href="https://anbako.myemmacloud.com/auth/login?returnUrl=%2Fdashboard"
+                  href="https://klant.anbako.nl/login?url=%2f"
                   className="nav-links-mobile"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  MyEmma login
+                  ANBAKO Klantportal
                 </a>
               </li>
             </ul>
           </div>
-          {button && <Button buttonStyle="btn--outline">MyEmma login</Button>}
+          {button && (
+            <Button buttonStyle="btn--outline">ANBAKO Klantportal</Button>
+          )}
         </div>
       </nav>
     </>
